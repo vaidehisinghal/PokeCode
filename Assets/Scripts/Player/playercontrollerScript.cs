@@ -11,24 +11,28 @@ public class playercontrollerScript : MonoBehaviour
     public LayerMask grassLayer;
     private bool isMoving;
     private Vector2 input;
-    public Text countText;
+    //public Text countText;
     private int count;
     private int pokeCount;
     public AudioSource PokeTheme;
     public AudioSource BallSound;
     public AudioSource BombSound;
+    public GameObject[] life;
 
     private Animator animator;
     private void Start()
     {     
         //PlayerPrefs.SetInt("Lives", 3);
         count = PlayerPrefs.GetInt("Lives", 3);
-        countText.text = "Life : " + count.ToString();
+        //countText.text = "Life : " + count.ToString();
         Debug.Log(count);
         pokeCount = 9;
         // BallSound = GetComponent<AudioSource>();
         // BombSound = GetComponent<AudioSource>();
         // PokeTheme = GetComponent<AudioSource>();
+        life[0].SetActive(true);
+        life[1].SetActive(true);
+        life[2].SetActive(true);
         PokeTheme.Play();
     }
     private void Awake()
@@ -98,8 +102,17 @@ public class playercontrollerScript : MonoBehaviour
 
     private void SetCountText()
     {
-        countText.text = "Life : " + count.ToString();
-        if(count <= 0)
+        //countText.text = "Life : " + count.ToString();
+        if (count==2)
+        {
+            life[2].SetActive(false);
+        }
+        else if (count==1)
+        {
+            life[2].SetActive(false);
+            life[1].SetActive(false);
+        }
+        else if(count <= 0)
         {
             SceneManager.LoadScene("Bye Bye");
         }
