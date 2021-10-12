@@ -661,24 +661,12 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: '1) Collect Pokeballs in order to catch pokemons.
-
-
-    2) If you encounter
-    a bomb, you will lose a life. There are only 3 lives.
-
-
-    3) After you collect
-    the pokeball, you will have to solve a puzzle correctly to succesfully catch
-    the pokemon and gain points.
-
-
-    4) If you answer the puzzle correctly, you
-    will be directed to a coding question, solving which will give you bonus points.
-
-
-    5)
-    No life will be lost if you answer the puzzle or the question incorrectly.'
+  m_text: "1) Collect pokeballs in order to catch pokemons.\n\n2) There are only
+    3 lives. On encountering a bomb, you lose a life. \n\n3) After you collect the
+    pokeball, you will have to solve a puzzle correctly to succesfully catch the
+    pokemon and gain points.\n\n4) If you answer the puzzle correctly, you will be
+    directed to a coding question, solving which will give you bonus points.\n\n5)
+    No life will be lost if you answer the puzzle or the question incorrectly."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
