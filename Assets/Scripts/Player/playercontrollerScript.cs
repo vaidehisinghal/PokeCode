@@ -21,7 +21,8 @@ public class playercontrollerScript : MonoBehaviour
 
     private Animator animator;
     private void Start()
-    {     
+    {  
+        
         //PlayerPrefs.SetInt("Lives", 3);
         count = PlayerPrefs.GetInt("Lives", 3);
         //countText.text = "Life : " + count.ToString();
@@ -30,9 +31,10 @@ public class playercontrollerScript : MonoBehaviour
         // BallSound = GetComponent<AudioSource>();
         // BombSound = GetComponent<AudioSource>();
         // PokeTheme = GetComponent<AudioSource>();
-        life[0].SetActive(true);
-        life[1].SetActive(true);
-        life[2].SetActive(true);
+        for(int i = 0; i <count; i++)
+        {
+            life[i].SetActive(true);
+        }
         PokeTheme.Play();
     }
     private void Awake()
