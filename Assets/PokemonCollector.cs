@@ -98,7 +98,8 @@ public class PokemonCollector : MonoBehaviour
             //Wrong answer message display
             questions[index1].SetActive(false);
             textDisplay.text = "Your answer is incorrect! You couldn't catch the pokémon.";
-            SceneManager.LoadScene("Main");
+            buttons[1].SetActive(true);
+            //SceneManager.LoadScene("Main");
             //Redirect to Main scene
         }
     }
