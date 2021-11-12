@@ -238,8 +238,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 3.6, y: -120}
-  m_SizeDelta: {x: 350, y: 50}
+  m_AnchoredPosition: {x: 352.44, y: -0.00000015131}
+  m_SizeDelta: {x: 403.15924, y: 50.00003}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &181342877
 MonoBehaviour:
@@ -378,8 +378,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 3.6, y: -190}
-  m_SizeDelta: {x: 160, y: 30}
+  m_AnchoredPosition: {x: 251.58, y: -103}
+  m_SizeDelta: {x: 197.52411, y: 55.01622}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &211019677
 MonoBehaviour:
@@ -608,8 +608,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -4, y: 0}
-  m_SizeDelta: {x: 204.11893, y: 278.67245}
+  m_AnchoredPosition: {x: -296.9, y: -53.4}
+  m_SizeDelta: {x: 443.9199, y: 433.48044}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &340043512
 MonoBehaviour:
@@ -632,12 +632,12 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 36
+    m_FontSize: 40
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 3
     m_MaxSize: 40
-    m_Alignment: 0
+    m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
@@ -874,7 +874,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1 &404055250
+--- !u!1 &438593420
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -882,42 +882,42 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 404055251}
-  - component: {fileID: 404055253}
-  - component: {fileID: 404055252}
+  - component: {fileID: 438593421}
+  - component: {fileID: 438593423}
+  - component: {fileID: 438593422}
   m_Layer: 0
-  m_Name: Text (12)
+  m_Name: answerhereText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!224 &404055251
+--- !u!224 &438593421
 RectTransform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 404055250}
+  m_GameObject: {fileID: 438593420}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 1714884940}
-  m_RootOrder: 12
+  m_Father: {fileID: 2025512042}
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 4.8, y: 40.7}
-  m_SizeDelta: {x: 324.7162, y: 223.78381}
+  m_AnchoredPosition: {x: 271.96, y: 56}
+  m_SizeDelta: {x: 238.28848, y: 62}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &404055252
+--- !u!114 &438593422
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 404055250}
+  m_GameObject: {fileID: 438593420}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
@@ -931,26 +931,26 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 30
+    m_Font: {fileID: 12800000, guid: 147e9ba9bdfee154c931a2cb1a0810fb, type: 3}
+    m_FontSize: 45
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 3
-    m_MaxSize: 40
-    m_Alignment: 4
+    m_MaxSize: 45
+    m_Alignment: 0
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: I am Ash and Brock's companion in their journey. Who am I?
---- !u!222 &404055253
+  m_Text: 'Answer here:'
+--- !u!222 &438593423
 CanvasRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 404055250}
+  m_GameObject: {fileID: 438593420}
   m_CullTransparentMesh: 0
 --- !u!1 &451923398
 GameObject:
@@ -1067,8 +1067,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 4.8, y: 40.7}
-  m_SizeDelta: {x: 324.7162, y: 223.78381}
+  m_AnchoredPosition: {x: -253.14, y: -22}
+  m_SizeDelta: {x: 403.63806, y: 415.01727}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &454464590
 MonoBehaviour:
@@ -1096,13 +1096,15 @@ MonoBehaviour:
     m_BestFit: 0
     m_MinSize: 3
     m_MaxSize: 40
-    m_Alignment: 4
+    m_Alignment: 3
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: What word is spelled incorrectly in every single dictionary?
+  m_Text: "What will be the space required for this piece of code?\r\n\nint sum (int
+    B[], int n)\r\n{\r\n  int s = 0, j;\r\n  for (j = 0; j < n; j++)\r\n    s = s
+    + B[i];\r\n  return s;\r\n}// sizeof(int) = 2 bytes\r\n"
 --- !u!222 &454464591
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1188,9 +1190,6 @@ MonoBehaviour:
   - {fileID: 472277935}
   - {fileID: 454464588}
   - {fileID: 775279860}
-  - {fileID: 480873090}
-  - {fileID: 662008094}
-  - {fileID: 404055250}
   answer: 
   inputField: {fileID: 181342877}
   textDisplay: {fileID: 340043512}
@@ -1231,8 +1230,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 4.8, y: 40.7}
-  m_SizeDelta: {x: 324.7162, y: 223.78381}
+  m_AnchoredPosition: {x: -292.6, y: -39.386}
+  m_SizeDelta: {x: 482.55994, y: 509.24573}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &472277937
 MonoBehaviour:
@@ -1255,19 +1254,24 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 30
+    m_FontSize: 25
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 3
+    m_MinSize: 2
     m_MaxSize: 40
-    m_Alignment: 4
+    m_Alignment: 3
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Which one of them is not a water type Pokemon: Squirtle,Psyduck,Staryu,
-    Bulbasaur?'
+  m_Text: "For the construction of a binary heap with the property that parent node
+    has value less than child node.In reference to that which line is incorrect.
+    \nLine indexed from 1.\r (Suppose you find the error at line 1 then, write it
+    as:- 1)\n\n1. add(int k)\r\n2. {\r\n3. heap_size++;\r\n4. int i = heap_size -
+    1;\r\n5. harr[i] = k;\r\n6. while (i != 0 && harr[parent(i)] < harr[i])\r\n7.
+    {\r\n8. swap(&harr[i], &harr[parent(i)]);\r\n9. i = parent(i);\r\n10. }\r\n11.
+    }\r\n"
 --- !u!222 &472277938
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1275,84 +1279,6 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 472277935}
-  m_CullTransparentMesh: 0
---- !u!1 &480873090
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 480873091}
-  - component: {fileID: 480873093}
-  - component: {fileID: 480873092}
-  m_Layer: 0
-  m_Name: Text (10)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &480873091
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 480873090}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1714884940}
-  m_RootOrder: 10
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 4.8, y: 40.7}
-  m_SizeDelta: {x: 324.7162, y: 223.78381}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &480873092
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 480873090}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 30
-    m_FontStyle: 0
-    m_BestFit: 0
-    m_MinSize: 3
-    m_MaxSize: 40
-    m_Alignment: 4
-    m_AlignByGeometry: 0
-    m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
-  m_Text: What is full of holes but still holds water?
---- !u!222 &480873093
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 480873090}
   m_CullTransparentMesh: 0
 --- !u!1 &512117123
 GameObject:
@@ -1535,139 +1461,6 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
---- !u!1 &551871305
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 551871306}
-  - component: {fileID: 551871308}
-  - component: {fileID: 551871307}
-  m_Layer: 0
-  m_Name: Title
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &551871306
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 551871305}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 2025512042}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -60, y: 165}
-  m_SizeDelta: {x: 100, y: 50}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &551871307
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 551871305}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_text: 'Let''s Solve '
-  m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2100000, guid: e73a58f6e2794ae7b1b7e50b7fb811b0, type: 2}
-  m_fontSharedMaterials: []
-  m_fontMaterial: {fileID: 0}
-  m_fontMaterials: []
-  m_fontColor32:
-    serializedVersion: 2
-    rgba: 4293716977
-  m_fontColor: {r: 0.9433962, g: 0.9211463, b: 0.9256706, a: 1}
-  m_enableVertexGradient: 0
-  m_colorMode: 3
-  m_fontColorGradient:
-    topLeft: {r: 1, g: 1, b: 1, a: 1}
-    topRight: {r: 1, g: 1, b: 1, a: 1}
-    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
-    bottomRight: {r: 1, g: 1, b: 1, a: 1}
-  m_fontColorGradientPreset: {fileID: 0}
-  m_spriteAsset: {fileID: 0}
-  m_tintAllSprites: 0
-  m_StyleSheet: {fileID: 0}
-  m_TextStyleHashCode: -1183493901
-  m_overrideHtmlColors: 0
-  m_faceColor:
-    serializedVersion: 2
-    rgba: 4294967295
-  m_fontSize: 33
-  m_fontSizeBase: 33
-  m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 18
-  m_fontSizeMax: 72
-  m_fontStyle: 33
-  m_HorizontalAlignment: 1
-  m_VerticalAlignment: 256
-  m_textAlignment: 65535
-  m_characterSpacing: 0
-  m_wordSpacing: 0
-  m_lineSpacing: 0
-  m_lineSpacingMax: 0
-  m_paragraphSpacing: 0
-  m_charWidthMaxAdj: 0
-  m_enableWordWrapping: 1
-  m_wordWrappingRatios: 0.4
-  m_overflowMode: 0
-  m_linkedTextComponent: {fileID: 0}
-  parentLinkedComponent: {fileID: 0}
-  m_enableKerning: 1
-  m_enableExtraPadding: 0
-  checkPaddingRequired: 0
-  m_isRichText: 1
-  m_parseCtrlCharacters: 1
-  m_isOrthographic: 1
-  m_isCullingEnabled: 0
-  m_horizontalMapping: 0
-  m_verticalMapping: 0
-  m_uvLineOffset: 0
-  m_geometrySortingOrder: 0
-  m_IsTextObjectScaleStatic: 0
-  m_VertexBufferAutoSizeReduction: 1
-  m_useMaxVisibleDescender: 1
-  m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
-  m_isUsingLegacyAnimationComponent: 0
-  m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
-  m_baseMaterial: {fileID: 0}
-  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
---- !u!222 &551871308
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 551871305}
-  m_CullTransparentMesh: 0
 --- !u!1 &577881995
 GameObject:
   m_ObjectHideFlags: 0
@@ -1726,7 +1519,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: e3265ab4bf004d28a9537516768c1c75, type: 3}
-    m_FontSize: 20
+    m_FontSize: 30
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
@@ -1745,94 +1538,6 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 577881995}
-  m_CullTransparentMesh: 0
---- !u!1 &662008094
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 662008095}
-  - component: {fileID: 662008097}
-  - component: {fileID: 662008096}
-  m_Layer: 0
-  m_Name: Text (11)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &662008095
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 662008094}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1714884940}
-  m_RootOrder: 11
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 4.8, y: 40.7}
-  m_SizeDelta: {x: 324.7162, y: 223.78381}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &662008096
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 662008094}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 35
-    m_FontStyle: 0
-    m_BestFit: 0
-    m_MinSize: 3
-    m_MaxSize: 40
-    m_Alignment: 4
-    m_AlignByGeometry: 0
-    m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
-  m_Text: '2+3=5
-
-    3+7=15
-
-    4+5=24
-
-    5+8=37
-
-    6+7=?
-
-'
---- !u!222 &662008097
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 662008094}
   m_CullTransparentMesh: 0
 --- !u!1 &667138505
 GameObject:
@@ -1868,8 +1573,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 4.8, y: 40.7}
-  m_SizeDelta: {x: 324.7162, y: 223.78381}
+  m_AnchoredPosition: {x: -230.9, y: -39.386}
+  m_SizeDelta: {x: 452.2052, y: 509.2458}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &667138507
 MonoBehaviour:
@@ -1892,18 +1597,21 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 30
+    m_FontSize: 23
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 3
+    m_MinSize: 2
     m_MaxSize: 40
-    m_Alignment: 4
+    m_Alignment: 3
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: I am a Pokemon. I sing songs. Who am I?
+  m_Text: "Find the output of the following program ?\r\n\nint main()\r\n{\r\n   
+    int num = 15673;\r\n    int R1 = 0, R2 = 0;\r\n\r\n    do {\r\n        R1 = num
+    % 10;\r\n        R2 = R2 * 10 + R1;\r\n\r\n        num = num / 10;\r\n    } while
+    (num > 0);\r\n\r\n    cout << R2 << \" \";\r\n\r\n    return 0;\r\n}\r\n"
 --- !u!222 &667138508
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1946,8 +1654,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 4.8, y: 40.7}
-  m_SizeDelta: {x: 324.7162, y: 223.78381}
+  m_AnchoredPosition: {x: -187.44, y: -45.638}
+  m_SizeDelta: {x: 474.8761, y: 452.20425}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &705812022
 MonoBehaviour:
@@ -1970,18 +1678,20 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 30
+    m_FontSize: 32
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 3
+    m_MinSize: 0
     m_MaxSize: 40
-    m_Alignment: 4
+    m_Alignment: 3
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Team Rocket's Idea Creator. Which Pokemon am I?
+  m_Text: "What is the value of a at the end of the program?\r\nint main(void)\r\n{\r\n   
+    int a = 100;\r\n    char* b = (char*)&a;\r\n    b[0] += 132;\r\n    b[1] += 3;\r\n   
+    b[0] = (232 - 32) / 2;\r\n    b[1] *= 0;\r\n    printf(\"%d\\n\", a);\r\n}\r\n"
 --- !u!222 &705812023
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2105,8 +1815,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 4.8, y: 40.7}
-  m_SizeDelta: {x: 324.7162, y: 223.78381}
+  m_AnchoredPosition: {x: -252.51, y: -27.5}
+  m_SizeDelta: {x: 454.76025, y: 460.54913}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &775279862
 MonoBehaviour:
@@ -2134,13 +1844,16 @@ MonoBehaviour:
     m_BestFit: 0
     m_MinSize: 3
     m_MaxSize: 40
-    m_Alignment: 4
+    m_Alignment: 3
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: What is the name of Ash's Mom?
+  m_Text: "What will be the output of the following pseudo-code?\n\r\nInput t = 6,
+    h = 9 and set x = 0\r\nInteger c\r\nif (h > t)\r\n  for (c = t; c < h; c = c
+    + 1)\r\n    x = x + c\r\n  End for loop\r\n  print x\r\nelse\r\n    print error
+    message print x\r\n"
 --- !u!222 &775279863
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2417,8 +2130,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 4.8, y: 40.7}
-  m_SizeDelta: {x: 324.7162, y: 223.78381}
+  m_AnchoredPosition: {x: -323, y: -34.504}
+  m_SizeDelta: {x: 421.85046, y: 474.4735}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &820920591
 MonoBehaviour:
@@ -2441,19 +2154,21 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 30
+    m_FontSize: 23
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 3
-    m_MaxSize: 40
-    m_Alignment: 4
+    m_MinSize: 2
+    m_MaxSize: 235
+    m_Alignment: 3
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: I am a God of pokemon. Nobody ever catched me. If u catched me all the
-    pokemons will die. Who am I?
+  m_Text: "Find the output of the following program ?\r\n\nint main()\r\n{\r\n\tint
+    *PTR;\r\n\tint i=0;\r\n\tPTR = (int*)malloc(2*2*sizeof(int));\r\n\tfor(i=0;i<4;i++)\r\n\t{\r\n\t\t*(PTR+i)
+    = i;\r\n\t}\r\n\tfor(i=0;i<4;i++)\r\n\t{\r\n\t\tcout<<*(PTR+i)<<\" \";\r\n\t}\r\n\treturn
+    0;\r\n}\r\n"
 --- !u!222 &820920592
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2520,7 +2235,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: e3265ab4bf004d28a9537516768c1c75, type: 3}
-    m_FontSize: 20
+    m_FontSize: 30
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
@@ -2721,8 +2436,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 4.8, y: 40.7}
-  m_SizeDelta: {x: 324.7162, y: 223.78381}
+  m_AnchoredPosition: {x: -230.9, y: -45.638}
+  m_SizeDelta: {x: 497.97168, y: 496.74207}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1166874511
 MonoBehaviour:
@@ -2745,18 +2460,22 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 30
+    m_FontSize: 25
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 3
+    m_MinSize: 0
     m_MaxSize: 40
-    m_Alignment: 4
+    m_Alignment: 3
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: What goes up but never comes down?
+  m_Text: "What is the output of the following program ?\r\n     #include <iostream>\r\n    
+    #include <string>\r\n     using namespace std;\r\n\r\n      int main()\r\n     
+    {\r\n\r\n      string str[] = { \"ABC\", \"PQR\", \"LMN\", \"XYZ\" };\r\n     
+    int len = 0;\r\n\r\n      len = (str[1].size() + str[2].length()) / 3;\r\n     
+    \r\n      cout << str[len];\r\n     \r\n     return 0;\r\n     }\r\n"
 --- !u!222 &1166874512
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3080,8 +2799,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 4.8, y: 40.7}
-  m_SizeDelta: {x: 324.7162, y: 223.78381}
+  m_AnchoredPosition: {x: -203.41, y: -45.638}
+  m_SizeDelta: {x: 442.92822, y: 452.20398}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1267596203
 MonoBehaviour:
@@ -3104,20 +2823,22 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 25
+    m_FontSize: 28
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 2
+    m_MinSize: 0
     m_MaxSize: 40
-    m_Alignment: 4
+    m_Alignment: 3
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: I am a fire type pokemon. I am a lizard type. Ash wants me to have his
-    first pokemon but an another trainer came and took me. I am a starter of pokemon.
-    Who am I?
+  m_Text: "What is printed?\r\n\r\nint main(void)\r\n{\r\n    int a = (int)0b01001011;\r\n   
+    int* b = &a;\r\n    int n[10] = { (int)0b010110, 17,\r\n                  -4,
+    -13, 19, -19,\r\n                  10, (int)0b11110110 };\r\n    for (int i =
+    0; i < 9; i++) {\r\n        printf(\"%c\", b[0]);\r\n        b[0] += n[i];\r\n   
+    }\r\n}\r\n"
 --- !u!222 &1267596204
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3160,8 +2881,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 4.8, y: 40.7}
-  m_SizeDelta: {x: 324.7162, y: 223.78381}
+  m_AnchoredPosition: {x: -203.4, y: -45.638}
+  m_SizeDelta: {x: 442.90234, y: 452.2047}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1310805245
 MonoBehaviour:
@@ -3184,18 +2905,20 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 30
+    m_FontSize: 32
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 3
+    m_MinSize: 2
     m_MaxSize: 40
-    m_Alignment: 4
+    m_Alignment: 3
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Which Pokemon is the evolved Avatar of Pikachu?
+  m_Text: "What is the output of this program (Consider address of x as 62fe14)?\r\n#include
+    <stdio.h>\r\nint main(void)\r\n{\r\n    int a = 100;\r\n    char* x = (char*)&a;\r\n   
+    char** y = &x;\r\n    y[0] = (char*)0x62fe14;\r\n    printf(\"%x\", *y);\r\n}\r\n"
 --- !u!222 &1310805246
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3291,6 +3014,84 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1453574645
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1453574646}
+  - component: {fileID: 1453574648}
+  - component: {fileID: 1453574647}
+  m_Layer: 0
+  m_Name: Text
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1453574646
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1453574645}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2025512042}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 28, y: 282.6}
+  m_SizeDelta: {x: 644.6891, y: 89.41344}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1453574647
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1453574645}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 12800000, guid: 147e9ba9bdfee154c931a2cb1a0810fb, type: 3}
+    m_FontSize: 70
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 3
+    m_MaxSize: 70
+    m_Alignment: 1
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: Let's Solve!
+--- !u!222 &1453574648
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1453574645}
+  m_CullTransparentMesh: 0
 --- !u!1 &1455681767
 GameObject:
   m_ObjectHideFlags: 0
@@ -3582,8 +3383,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 4.8, y: 40.7}
-  m_SizeDelta: {x: 324.7162, y: 223.78381}
+  m_AnchoredPosition: {x: -292.6, y: -51.848}
+  m_SizeDelta: {x: 433.13446, y: 509.24545}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1700177317
 MonoBehaviour:
@@ -3606,18 +3407,21 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 30
+    m_FontSize: 28
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 3
+    m_MinSize: 0
     m_MaxSize: 40
-    m_Alignment: 4
+    m_Alignment: 3
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: I am Ash's favourite pokemon and his best friend.
+  m_Text: "Is the output of this code True or False?\r\nint main(void)\r\n{\r\n   
+    int b = 20;\r\n    int* y = &b;\r\n    char n = 'A';\r\n    char* z = &n;\r\n   
+    y[0] = z[0];\r\n    printf((*y == *z) ? \"True\" : \"False\");\r\n}\r\n\n(Write
+    your answer as T for TRUE and F for FALSE)\n"
 --- !u!222 &1700177318
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3663,9 +3467,6 @@ RectTransform:
   - {fileID: 472277936}
   - {fileID: 454464589}
   - {fileID: 775279861}
-  - {fileID: 480873091}
-  - {fileID: 662008095}
-  - {fileID: 404055251}
   m_Father: {fileID: 2025512042}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -3792,8 +3593,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 3.6, y: -190}
-  m_SizeDelta: {x: 160, y: 30}
+  m_AnchoredPosition: {x: 251.58, y: -103}
+  m_SizeDelta: {x: 197.5241, y: 55.01622}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1883245059
 MonoBehaviour:
@@ -3942,8 +3743,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 5.3, y: 3.6}
-  m_SizeDelta: {x: 400, y: 500}
+  m_AnchoredPosition: {x: 1.9, y: 24.9}
+  m_SizeDelta: {x: 1224.802, y: 667.7283}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1909256015
 MonoBehaviour:
@@ -4058,17 +3859,18 @@ RectTransform:
   m_Children:
   - {fileID: 1909256014}
   - {fileID: 2070444703}
-  - {fileID: 551871306}
+  - {fileID: 1453574646}
   - {fileID: 1883245058}
   - {fileID: 1714884940}
   - {fileID: 181342876}
   - {fileID: 211019676}
+  - {fileID: 438593421}
   m_Father: {fileID: 530575543}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: -22}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &2070444702
@@ -4105,8 +3907,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 5.3000007, y: 220}
-  m_SizeDelta: {x: 400, y: 75}
+  m_AnchoredPosition: {x: 1.9009, y: 290.2}
+  m_SizeDelta: {x: 1224.8005, y: 136.99123}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2070444704
 MonoBehaviour:
@@ -4396,7 +4198,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -277.06, y: 145.41}
+  m_AnchoredPosition: {x: -252, y: 159.31}
   m_SizeDelta: {x: 108.480774, y: 131.37877}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1831381319950048100
