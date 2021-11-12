@@ -18,7 +18,7 @@ public class PokemonCollector : MonoBehaviour
     public GameObject flash;
     public GameObject InputWindow;
     public GameObject[] questions;
-    string[] correctAnswer = { "T", "100", "0x62fe14", "Karnataka", "LMN", "Arceus", "Jigglypuff", "Psyduck", "Incorrectly", "Delia Ketchum", "Sponge", "50", "Misty" };
+    string[] correctAnswer = { "T", "100", "0x62fe14", "Karnataka", "LMN", "0 1 2 3", "37651", "6", "2n+8", "21" };
     public string answer;
     public InputField inputField;
     public Text textDisplay;
