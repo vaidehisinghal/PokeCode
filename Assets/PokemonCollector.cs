@@ -25,6 +25,7 @@ public class PokemonCollector : MonoBehaviour
     int index1;
     public GameObject[] buttons;
     int pokeCount = 0;
+    string[] hackQues = {"https://www.hackerrank.com/pokecode1","https://www.hackerrank.com/pokecode2","https://www.hackerrank.com/pokecode3","https://www.hackerrank.com/pokecode4","https://www.hackerrank.com/pokecode5","https://www.hackerrank.com/pokecode6","https://www.hackerrank.com/pokecode7","https://www.hackerrank.com/pokecode8","https://www.hackerrank.com/pokecode9","https://www.hackerrank.com/pokecode10"};
     
 
     // Start is called before the first frame update
@@ -66,7 +67,7 @@ public class PokemonCollector : MonoBehaviour
         index1 = PlayerPrefs.GetInt("Question", 0);
         questions[index1].SetActive(true);
         PlayerPrefs.SetInt("Question", index1 + 1);      
-        if(index1+1 == 13)
+        if(index1+1 == 10)
         {
             PlayerPrefs.SetInt("Question", 0);
         }
@@ -87,7 +88,7 @@ public class PokemonCollector : MonoBehaviour
             textDisplay.text = "Your answer is correct! You got the pokémon.";
             
             buttons[1].SetActive(true);
-            Application.ExternalEval("window.open('https://www.hackerrank.com/')");
+            Application.ExternalEval("window.open('" + hackQues[index] + "', '_blank')");
             pokeCount++;
             OnUpdate(pokeCount);
             //Redirect to hackerrank
